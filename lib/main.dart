@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simplequiz/HomePage.dart';
+
 import 'quizscreen.dart';
 // import 'quizscreen.dart '
 

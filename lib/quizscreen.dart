@@ -147,16 +147,22 @@ class _quizscreenState extends State<quizscreen> {
 
   _showScoreAlert() {
     bool isPassed = false;
-    if (score >= questionList.length * 70) {
+    if (score >= questionList.length * 50) {
       isPassed = true;
     }
 
     String title = isPassed ? "Passed" : "Failed";
     return AlertDialog(
-      title: Text(title + "Your Score is $score",
-          style: TextStyle(color: isPassed ? Colors.blue : Colors.yellow)),
+      title: Text("Your Score is $score",
+          style: TextStyle(color: Colors.deepOrange)),
       content: ElevatedButton(
-        child: Text('Restart'),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.black54,
+        ),
+        child: Text(
+          'Restart',
+          style: TextStyle(fontSize: 20),
+        ),
         onPressed: () {
           setState(() {
             Navigator.pop(context);

@@ -97,10 +97,54 @@ List<Question> getQuestion() {
     Question(
       "संयुक्त राष्ट्र संघ (UNO) को स्थापना कहिले भयो ?",
       [
-        Answer("1945", false),
         Answer("1945", true),
+        Answer("1845", false),
         Answer("1947", false),
         Answer("1945", false),
+      ],
+    ),
+  );
+  list.add(
+    Question(
+      "द लाईट अफ एसिया भनी कसलाई चिनिन्छ ?",
+      [
+        Answer("Gautam Buddha", true),
+        Answer("Mahatma Gandhi", false),
+        Answer("KP Oli", false),
+        Answer("Comred Prachanda", false),
+      ],
+    ),
+  );
+  list.add(
+    Question(
+      "न्यूयोर्क शहर कुन नदिको किनारमा पर्छ  ?",
+      [
+        Answer("Hudson", true),
+        Answer("Amazon", false),
+        Answer("Cyrul", false),
+        Answer("Bagmati", false),
+      ],
+    ),
+  );
+  list.add(
+    Question(
+      "प्रहरी र जेल नभएको देश कुन हो  ?",
+      [
+        Answer("Nepal", false),
+        Answer("Iceland", true),
+        Answer("France", false),
+        Answer("China", false),
+      ],
+    ),
+  );
+  list.add(
+    Question(
+      "बिश्वमा सर्बप्रथम VAT लागु गर्ने राष्ट्र कुन हो ??",
+      [
+        Answer("India", false),
+        Answer("USA", false),
+        Answer("Mexico", false),
+        Answer("France", true),
       ],
     ),
   );
